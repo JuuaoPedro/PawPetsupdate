@@ -185,9 +185,7 @@ div {
     top: 30%;
     transform: translateY(50%);
 }
-.arrow:hover {
-    background-color: #fc7c04;
-}
+
 .arrowLeft {
     left: 0;
 }
@@ -205,4 +203,13 @@ div {
     height: 80px;
     background-image: url(../assets/seta-direita.png);
 }
+
+.arrows {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    filter: drop-shadow(30px 0 30px #000000);
+}
+
 

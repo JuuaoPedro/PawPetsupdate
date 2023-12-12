@@ -178,6 +178,11 @@ h1 {
     margin-inline-end: 1%;
 }
 
+#close-modal {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+}
+
 #cachorrinho {
     width: 80px;
     height: 80px;
@@ -221,9 +226,9 @@ button:hover {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border-bottom: 1px solid #ccc;
    margin-bottom: 1rem;
    padding-bottom: 1rem;
+   flex-direction: column;
 }
 
 .modal-body p {
@@ -237,4 +242,23 @@ button:hover {
   
 #modal.hide {
    top: 0;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    border:  2px solid white;
+    padding: 5px;
+    padding-top: 8px;
+}
+
+.linkmodal {
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10px;
 }

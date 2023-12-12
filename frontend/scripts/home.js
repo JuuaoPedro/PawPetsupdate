@@ -48,11 +48,10 @@ arrowRight.addEventListener("click", () => {
   handleClickChangeStep(stepAtual + 1)
 })
 
-// Configuração da animação
 const animationOptions = {
-  duration: 1000, // 2 segundos
-  iterations: 1, // Repete infinitamente
-  easing: 'ease-in-out', // Função de temporização
+  duration: 1000,
+  iterations: 1,
+  easing: 'ease-in-out',
   fill: "forwards"
 };
 
