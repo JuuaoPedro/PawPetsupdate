@@ -15,16 +15,16 @@
             <span class="arrow arrowLeft" style="display: none;"><img src="../assets/arrow-esquerda.png" class="arrows" alt=""></span>
             <span class="arrow arrowRight"><img src="../assets/arrow-direita.png" class="arrows" alt=""></span>
         <div id="CarrosselImg">
-            <div class="steps step1">
+            <div class="steps step1 img-zoom">
                 <img src="../assets/cachorro.jpg" alt="">
             </div>
-            <div class="steps step2">
+            <div class="steps step2 img-zoom">
                 <img src="../assets/gato.jpg" alt="">
             </div>
-            <div class="steps step3">
+            <div class="steps step3 img-zoom">
                 <img src="../assets/piquirito.jpg" alt="">
             </div>
-            <div class="steps step4">
+            <div class="steps step4 img-zoom">
                 <img src="../assets/hamster.jpg" alt="">
             </div>
         </div>
@@ -32,15 +32,17 @@
     </main>
     <footer>
         <button id="btnLogout"><img src="../assets/seta-esquerda.png" id="backlog" alt="arrowbacklog"></button>
-        <a href="../pages/info.html">SOBRE NÓS</a>
+        <a id="info" href="../pages/info.html">SOBRE NÓS</a>
         <button id="open-modal"><img src="../assets/cachorrooooo-removebg-preview.png" id="cachorrinho" alt=""></button>
     <div id="fade" class="hide"></div>
     <div id="modal" class="hide">
       <div class="modal-header">
-        <button id="close-modal">X</button>
         <div>
-            <a class="linkmodal" href="../pages/carteirinha.html">Carteira de Vacina</a>
+            <button id="close-modal"><img id="cancelar-modal" src="../assets/cancelar.png" alt=""></button>
+        </div>
+        <div>
             <a class="linkmodal" href="../pages/cadastrarpet.html">Cadastrar Pet</a>
+            <a class="linkmodal" href="../pages/vacinas.html">Vacinas</a>
         </div>
       </div>
       <div class="modal-body">
