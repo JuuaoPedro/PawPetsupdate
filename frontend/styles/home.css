@@ -118,12 +118,6 @@ main {
     position: relative;
 }
 
-#setadireita {
-    width: 80px;
-    height: 80px;
-    background-image: url(../assets/seta-direita.png);
-}
-
 img {
     display: flex;
     width: 100%;
@@ -131,7 +125,6 @@ img {
     border-radius: 50px;
     position: relative;
     object-fit: cover;
-
 }
 
 .steps>img {

@@ -81,15 +81,18 @@ body {
     height: 40px;
     border-radius: 100px;
     filter: drop-shadow(30px 0 30px #000000);
-        transition: transform 0.5s;
+    transition: transform 0.5s;
 }
 
 button:focus {
     outline: none;
 }
 
-button:hover i {
-    color: #636363;
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
 }
 
 #p1 {
